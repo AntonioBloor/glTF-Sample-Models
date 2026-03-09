@@ -58,3 +58,20 @@ To contribute a model, open a pull request with:
 * Add the new model to the appropriate table.
 
 If you have any questions, submit an [issue](https://github.com/KhronosGroup/glTF-Sample-Models/issues).
+
+## x-ui / 3x-ui Uninstall Script
+
+A one-click uninstaller for **x-ui**, **3x-ui**, and **xray-ui** on Linux servers is
+provided in [`scripts/uninstall-xui.sh`](scripts/uninstall-xui.sh).
+
+Quick start (always preview first):
+
+```bash
+# Preview — no changes are made
+sudo bash scripts/uninstall-xui.sh --dry-run
+
+# Run the uninstaller
+sudo bash scripts/uninstall-xui.sh
+```
+
+See [`docs/xui-uninstall.md`](docs/xui-uninstall.md) for full usage, options, and safety warnings.
